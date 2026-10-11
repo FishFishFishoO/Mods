@@ -1,0 +1,40 @@
+{
+	"StructName": "/Script/CreateModPlugin.ModTechUnlockItemConigStruct",
+	"Rows":
+	{
+		"FoxColours_Suit_01":
+		{
+			"displayName": "Spirit Fox Attire",
+			"formatItemDesc":
+			{
+				"textMain": "Spirit fox ears and tails, added to the sect outfit wardrobe. Unlocks for female disciples only.",
+				"textParams":
+				{
+				}
+			},
+			"icon": "/Game/Mods/FoxColours/Art/Textures/T_BlackFox_Tech_Icon.T_BlackFox_Tech_Icon",
+			"unlockType": "ForceApparel",
+			"unlockItemsIds": [
+				"FoxColours_BlackFox_Ear",
+				"FoxColours_WhiteFox_Ear",
+				"FoxColours_BlackFox_Tail",
+				"FoxColours_WhiteFox_Tail",
+				"FoxColours_NineTailFox_Tail",
+				"FoxColours_GoldenFox_Ear",
+				"FoxColours_GoldenFox_Tail",
+				"FoxColours_RedFox_Ear",
+				"FoxColours_RedFox_Tail",
+				"FoxColours_OrangeFox_Ear",
+				"FoxColours_OrangeFox_Tail",
+				"FoxColours_SilverFox_Ear",
+				"FoxColours_SilverFox_Tail",
+				"FoxColours_FrostFox_Ear",
+				"FoxColours_FrostFox_Tail",
+				"FoxColours_NineTailFox_Ear"
+			],
+			"unlockItemsNums": [],
+			"templateId": "None",
+			"iD": "FoxColours_Suit_01"
+		}
+	}
+}

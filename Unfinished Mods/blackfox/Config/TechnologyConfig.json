@@ -1,0 +1,40 @@
+{
+	"StructName": "/Script/CreateModPlugin.ModTechnologyConfigStruct",
+	"Rows":
+	{
+		"BlackFox_Tech_01":
+		{
+			"techName": "Spirit Fox Ornament Crafting",
+			"icon": "/Game/Mods/blackfox/Art/Textures/T_BlackFox_Tech_Icon.T_BlackFox_Tech_Icon",
+			"category": "Industrial",
+			"difficultyLevel": "Beginner",
+			"prevTechIds": [],
+			"unlockItemIds": [
+				"BlackFox_Set_01",
+				"BlackFox_Recipes_01"
+			],
+			"needTechPoints":
+			{
+				"basTechPoint": 99
+			},
+			"needResources":
+			{
+				"10512": 3
+			},
+			"needForceLevel": 1,
+			"uIX": 1,
+			"uIY": 1,
+			"techDesc": "Research this technology to unlock the sewing techniques for both Snow Fox and Ebony Fox ear and tail ornaments.",
+			"formatItemTechDesc":
+			{
+				"textMain": "Research this technology to unlock the sewing techniques for both Snow Fox and Ebony Fox ear and tail ornaments.",
+				"textParams":
+				{
+				}
+			},
+			"enable": true,
+			"templateId": "None",
+			"iD": "BlackFox_Tech_01"
+		}
+	}
+}

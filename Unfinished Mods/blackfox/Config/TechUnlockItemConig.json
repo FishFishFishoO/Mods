@@ -1,0 +1,72 @@
+{
+	"StructName": "/Script/CreateModPlugin.ModTechUnlockItemConigStruct",
+	"Rows":
+	{
+		"BlackFox_Set_01":
+		{
+			"displayName": "Spirit Fox Ornaments",
+			"formatItemDesc":
+			{
+				"textMain": "Snow-white and ebony fox ears and tails -- fit for any wanderer of the martial world to wear.",
+				"textParams":
+				{
+				}
+			},
+			"icon": "/Game/Mods/blackfox/Art/Textures/T_BlackFox_Tech_Icon.T_BlackFox_Tech_Icon",
+			"unlockType": "ForceApparel",
+			"unlockItemsIds": [
+				"KitsuneYuna_Hats_Ear",
+				"KitsuneYuna_Pants_1",
+				"BlackFox_Hats_Ear_White",
+				"BlackFox_Hats_Ear_Green",
+				"BlackFox_Hats_Ear_Blue",
+				"BlackFox_Hats_Ear_Purple",
+				"BlackFox_Hats_Ear_Orange",
+				"BlackFox_Hats_Ear_Golden",
+				"BlackFox_Tail_1_White",
+				"BlackFox_Tail_1_Green",
+				"BlackFox_Tail_1_Blue",
+				"BlackFox_Tail_1_Purple",
+				"BlackFox_Tail_1_Orange",
+				"BlackFox_Tail_1_Golden",
+				"WhiteFox_Hats_Ear_White",
+				"WhiteFox_Hats_Ear_Green",
+				"WhiteFox_Hats_Ear_Blue",
+				"WhiteFox_Hats_Ear_Purple",
+				"WhiteFox_Hats_Ear_Orange",
+				"WhiteFox_Hats_Ear_Golden",
+				"WhiteFox_Tail_1_White",
+				"WhiteFox_Tail_1_Green",
+				"WhiteFox_Tail_1_Blue",
+				"WhiteFox_Tail_1_Purple",
+				"WhiteFox_Tail_1_Orange",
+				"WhiteFox_Tail_1_Golden"
+			],
+			"unlockItemsNums": [],
+			"templateId": "None",
+			"iD": "BlackFox_Set_01"
+		},
+		"BlackFox_Recipes_01":
+		{
+			"displayName": "Fox Ornament Crafting",
+			"formatItemDesc":
+			{
+				"textMain": "The sewing techniques for both Snow Fox and Ebony Fox ear and tail ornaments.",
+				"textParams":
+				{
+				}
+			},
+			"icon": "/Game/Mods/blackfox/Art/Textures/T_BlackFox_Tech_Icon.T_BlackFox_Tech_Icon",
+			"unlockType": "Recipe",
+			"unlockItemsIds": [
+				"BlackFox_Formula_Ear",
+				"BlackFox_Formula_Tail",
+				"WhiteFox_Formula_Ear",
+				"WhiteFox_Formula_Tail"
+			],
+			"unlockItemsNums": [],
+			"templateId": "None",
+			"iD": "BlackFox_Recipes_01"
+		}
+	}
+}

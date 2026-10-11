@@ -1,0 +1,1502 @@
+{
+	"StructName": "/Script/CreateModPlugin.ModCharacterApparel",
+	"Rows":
+	{
+		"FoxColours_BlackFox_Ear":
+		{
+			"armorType": 1,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_HatEar_BlackFox.CDA_HatEar_BlackFox",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pendant_back_07_Orange_Dodge",
+				"Pendant_back_07_Orange_Comprehension",
+				"Pendant_back_07_Orange_Crit"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 500,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 10,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_BlackFox_Ear_Icon.T_BlackFox_Ear_Icon",
+			"itemPrice": 250,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A ebony plush ear-shaped hair accessory with a lively, playful look, adding a touch of coy sweetness to a swordswoman.",
+			"itemName": "Ebony Fox Ear Ornament",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_ArmorB01.Item_Equipment_ArmorB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 250,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_BlackFox_Ear"
+		},
+		"FoxColours_WhiteFox_Ear":
+		{
+			"armorType": 1,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/CharacterEditor/CharacterParts/DataAssets/W_KitsuneYuna/CDA_HatEar_KitsuneYuna.CDA_HatEar_KitsuneYuna",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pendant_back_07_Orange_Dodge",
+				"Pendant_back_07_Orange_Comprehension",
+				"Pendant_back_07_Orange_Crit"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 500,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 10,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_WhiteFox_Ear_Icon.T_WhiteFox_Ear_Icon",
+			"itemPrice": 250,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A snow-white plush ear-shaped hair accessory with a lively, playful look, adding a touch of coy sweetness to a swordswoman.",
+			"itemName": "Snow Fox Ear Ornament",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_ArmorB01.Item_Equipment_ArmorB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 250,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_WhiteFox_Ear"
+		},
+		"FoxColours_BlackFox_Tail":
+		{
+			"armorType": 4,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_BlackFox_Tail.CDA_BlackFox_Tail",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pants_Lv_02_PurpleB_MaxLeftLeg",
+				"Pants_Lv_02_PurpleB_CurMaxLeftLeg",
+				"Pants_Lv_02_PurpleB_MaxRightLeg",
+				"Pants_Lv_02_PurpleB_CurMaxRightLeg",
+				"Pants_Lv_02_PurpleB_Defence",
+				"Pants_Lv_02_PurpleB_Shield",
+				"Pants_Lv_02_PurpleB_MaxPre",
+				"Pants_Lv_02_PurpleB_MinPre"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 0,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 0,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_BlackFox_Tail_Icon.T_BlackFox_Tail_Icon",
+			"itemPrice": 10,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A ebony fluffy fur-tail accessory that drapes naturally; it sways with every step, lending a unique charm.",
+			"itemName": "Ebony Fox Fur Tail Accessory",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_PantsB01.Item_Equipment_PantsB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 10,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_BlackFox_Tail"
+		},
+		"FoxColours_WhiteFox_Tail":
+		{
+			"armorType": 4,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_WhiteFox_Tail.CDA_WhiteFox_Tail",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pants_Lv_02_PurpleB_MaxLeftLeg",
+				"Pants_Lv_02_PurpleB_CurMaxLeftLeg",
+				"Pants_Lv_02_PurpleB_MaxRightLeg",
+				"Pants_Lv_02_PurpleB_CurMaxRightLeg",
+				"Pants_Lv_02_PurpleB_Defence",
+				"Pants_Lv_02_PurpleB_Shield",
+				"Pants_Lv_02_PurpleB_MaxPre",
+				"Pants_Lv_02_PurpleB_MinPre"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 0,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 0,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_WhiteFox_Tail_Icon.T_WhiteFox_Tail_Icon",
+			"itemPrice": 10,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A snow-white fluffy fur-tail accessory that drapes naturally; it sways with every step, lending a unique charm.",
+			"itemName": "Snow Fox Fur Tail Accessory",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_PantsB01.Item_Equipment_PantsB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 10,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_WhiteFox_Tail"
+		},
+		"FoxColours_NineTailFox_Tail":
+		{
+			"armorType": 4,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_NineTailFox_Tail.CDA_NineTailFox_Tail",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pants_Lv_02_PurpleB_MaxLeftLeg",
+				"Pants_Lv_02_PurpleB_CurMaxLeftLeg",
+				"Pants_Lv_02_PurpleB_MaxRightLeg",
+				"Pants_Lv_02_PurpleB_CurMaxRightLeg",
+				"Pants_Lv_02_PurpleB_Defence",
+				"Pants_Lv_02_PurpleB_Shield",
+				"Pants_Lv_02_PurpleB_MaxPre",
+				"Pants_Lv_02_PurpleB_MinPre"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 0,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 0,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_NineTailFox_Tail_Icon.T_NineTailFox_Tail_Icon",
+			"itemPrice": 10,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A charming accessory worn only by those in the highest authority. Inspired by the majestic nine-tailed, silver-white fox of Qingqiu.",
+			"itemName": "Qingqiu Nine-Tailed Fox Tail",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_PantsB01.Item_Equipment_PantsB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 10,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_NineTailFox_Tail"
+		},
+		"FoxColours_GoldenFox_Ear":
+		{
+			"armorType": 1,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_HatEar_GoldenFox.CDA_HatEar_GoldenFox",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pendant_back_07_Orange_Dodge",
+				"Pendant_back_07_Orange_Comprehension",
+				"Pendant_back_07_Orange_Crit"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 500,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 10,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_GoldenFox_Ear_Icon.T_GoldenFox_Ear_Icon",
+			"itemPrice": 250,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A golden plush ear-shaped hair accessory with a lively, playful look, adding a touch of coy sweetness to a swordswoman.",
+			"itemName": "Golden Fox Ear Ornament",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_ArmorB01.Item_Equipment_ArmorB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 250,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_GoldenFox_Ear"
+		},
+		"FoxColours_GoldenFox_Tail":
+		{
+			"armorType": 4,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_GoldenFox_Tail.CDA_GoldenFox_Tail",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pants_Lv_02_PurpleB_MaxLeftLeg",
+				"Pants_Lv_02_PurpleB_CurMaxLeftLeg",
+				"Pants_Lv_02_PurpleB_MaxRightLeg",
+				"Pants_Lv_02_PurpleB_CurMaxRightLeg",
+				"Pants_Lv_02_PurpleB_Defence",
+				"Pants_Lv_02_PurpleB_Shield",
+				"Pants_Lv_02_PurpleB_MaxPre",
+				"Pants_Lv_02_PurpleB_MinPre"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 0,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 0,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_GoldenFox_Tail_Icon.T_GoldenFox_Tail_Icon",
+			"itemPrice": 10,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A golden fluffy fur-tail accessory that drapes naturally; it sways with every step, lending a unique charm.",
+			"itemName": "Golden Fox Fur Tail Accessory",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_PantsB01.Item_Equipment_PantsB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 10,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_GoldenFox_Tail"
+		},
+		"FoxColours_RedFox_Ear":
+		{
+			"armorType": 1,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_HatEar_RedFox.CDA_HatEar_RedFox",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pendant_back_07_Orange_Dodge",
+				"Pendant_back_07_Orange_Comprehension",
+				"Pendant_back_07_Orange_Crit"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 500,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 10,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_RedFox_Ear_Icon.T_RedFox_Ear_Icon",
+			"itemPrice": 250,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A red plush ear-shaped hair accessory with a lively, playful look, adding a touch of coy sweetness to a swordswoman.",
+			"itemName": "Red Fox Ear Ornament",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_ArmorB01.Item_Equipment_ArmorB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 250,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_RedFox_Ear"
+		},
+		"FoxColours_RedFox_Tail":
+		{
+			"armorType": 4,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_RedFox_Tail.CDA_RedFox_Tail",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pants_Lv_02_PurpleB_MaxLeftLeg",
+				"Pants_Lv_02_PurpleB_CurMaxLeftLeg",
+				"Pants_Lv_02_PurpleB_MaxRightLeg",
+				"Pants_Lv_02_PurpleB_CurMaxRightLeg",
+				"Pants_Lv_02_PurpleB_Defence",
+				"Pants_Lv_02_PurpleB_Shield",
+				"Pants_Lv_02_PurpleB_MaxPre",
+				"Pants_Lv_02_PurpleB_MinPre"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 0,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 0,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_RedFox_Tail_Icon.T_RedFox_Tail_Icon",
+			"itemPrice": 10,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A red fluffy fur-tail accessory that drapes naturally; it sways with every step, lending a unique charm.",
+			"itemName": "Red Fox Fur Tail Accessory",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_PantsB01.Item_Equipment_PantsB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 10,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_RedFox_Tail"
+		},
+		"FoxColours_OrangeFox_Ear":
+		{
+			"armorType": 1,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_HatEar_OrangeFox.CDA_HatEar_OrangeFox",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pendant_back_07_Orange_Dodge",
+				"Pendant_back_07_Orange_Comprehension",
+				"Pendant_back_07_Orange_Crit"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 500,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 10,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_OrangeFox_Ear_Icon.T_OrangeFox_Ear_Icon",
+			"itemPrice": 250,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "An orange plush ear-shaped hair accessory with a lively, playful look, adding a touch of coy sweetness to a swordswoman.",
+			"itemName": "Orange Fox Ear Ornament",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_ArmorB01.Item_Equipment_ArmorB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 250,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_OrangeFox_Ear"
+		},
+		"FoxColours_OrangeFox_Tail":
+		{
+			"armorType": 4,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_OrangeFox_Tail.CDA_OrangeFox_Tail",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pants_Lv_02_PurpleB_MaxLeftLeg",
+				"Pants_Lv_02_PurpleB_CurMaxLeftLeg",
+				"Pants_Lv_02_PurpleB_MaxRightLeg",
+				"Pants_Lv_02_PurpleB_CurMaxRightLeg",
+				"Pants_Lv_02_PurpleB_Defence",
+				"Pants_Lv_02_PurpleB_Shield",
+				"Pants_Lv_02_PurpleB_MaxPre",
+				"Pants_Lv_02_PurpleB_MinPre"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 0,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 0,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_OrangeFox_Tail_Icon.T_OrangeFox_Tail_Icon",
+			"itemPrice": 10,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "An orange fluffy fur-tail accessory that drapes naturally; it sways with every step, lending a unique charm.",
+			"itemName": "Orange Fox Fur Tail Accessory",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_PantsB01.Item_Equipment_PantsB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 10,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_OrangeFox_Tail"
+		},
+		"FoxColours_SilverFox_Ear":
+		{
+			"armorType": 1,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_HatEar_SilverFox.CDA_HatEar_SilverFox",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pendant_back_07_Orange_Dodge",
+				"Pendant_back_07_Orange_Comprehension",
+				"Pendant_back_07_Orange_Crit"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 500,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 10,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_SilverFox_Ear_Icon.T_SilverFox_Ear_Icon",
+			"itemPrice": 250,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A silver plush ear-shaped hair accessory with a lively, playful look, adding a touch of coy sweetness to a swordswoman.",
+			"itemName": "Silver Fox Ear Ornament",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_ArmorB01.Item_Equipment_ArmorB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 250,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_SilverFox_Ear"
+		},
+		"FoxColours_SilverFox_Tail":
+		{
+			"armorType": 4,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_SilverFox_Tail.CDA_SilverFox_Tail",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pants_Lv_02_PurpleB_MaxLeftLeg",
+				"Pants_Lv_02_PurpleB_CurMaxLeftLeg",
+				"Pants_Lv_02_PurpleB_MaxRightLeg",
+				"Pants_Lv_02_PurpleB_CurMaxRightLeg",
+				"Pants_Lv_02_PurpleB_Defence",
+				"Pants_Lv_02_PurpleB_Shield",
+				"Pants_Lv_02_PurpleB_MaxPre",
+				"Pants_Lv_02_PurpleB_MinPre"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 0,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 0,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_SilverFox_Tail_Icon.T_SilverFox_Tail_Icon",
+			"itemPrice": 10,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A silver fluffy fur-tail accessory that drapes naturally; it sways with every step, lending a unique charm.",
+			"itemName": "Silver Fox Fur Tail Accessory",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_PantsB01.Item_Equipment_PantsB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 10,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_SilverFox_Tail"
+		},
+		"FoxColours_FrostFox_Ear":
+		{
+			"armorType": 1,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_HatEar_FrostFox.CDA_HatEar_FrostFox",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pendant_back_07_Orange_Dodge",
+				"Pendant_back_07_Orange_Comprehension",
+				"Pendant_back_07_Orange_Crit"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 500,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 10,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_FrostFox_Ear_Icon.T_FrostFox_Ear_Icon",
+			"itemPrice": 250,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A brown plush ear-shaped hair accessory with a lively, playful look, adding a touch of coy sweetness to a swordswoman.",
+			"itemName": "Brown Fox Ear Ornament",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_ArmorB01.Item_Equipment_ArmorB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 250,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_FrostFox_Ear"
+		},
+		"FoxColours_FrostFox_Tail":
+		{
+			"armorType": 4,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_FrostFox_Tail.CDA_FrostFox_Tail",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pants_Lv_02_PurpleB_MaxLeftLeg",
+				"Pants_Lv_02_PurpleB_CurMaxLeftLeg",
+				"Pants_Lv_02_PurpleB_MaxRightLeg",
+				"Pants_Lv_02_PurpleB_CurMaxRightLeg",
+				"Pants_Lv_02_PurpleB_Defence",
+				"Pants_Lv_02_PurpleB_Shield",
+				"Pants_Lv_02_PurpleB_MaxPre",
+				"Pants_Lv_02_PurpleB_MinPre"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 0,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 0,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_FrostFox_Tail_Icon.T_FrostFox_Tail_Icon",
+			"itemPrice": 10,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A brown fluffy fur-tail accessory that drapes naturally; it sways with every step, lending a unique charm.",
+			"itemName": "Brown Fox Fur Tail Accessory",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_PantsB01.Item_Equipment_PantsB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 10,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_FrostFox_Tail"
+		},
+		"FoxColours_NineTailFox_Ear":
+		{
+			"armorType": 1,
+			"apparelMaleDataAsset": "None",
+			"apparelFemaleDataAsset": "/Game/Mods/FoxColours/CharacterParts/CDA_HatEar_NineTailFox.CDA_HatEar_NineTailFox",
+			"materialVariantsIndex": 0,
+			"materialColor":
+			{
+			},
+			"beAttakedLossDurability": 0,
+			"equipmentType": "Armor",
+			"mainAttributes": [
+				"Pendant_back_07_Orange_Dodge",
+				"Pendant_back_07_Orange_Comprehension",
+				"Pendant_back_07_Orange_Crit"
+			],
+			"subAttributes": [],
+			"equipmentAbility": [],
+			"refitDurability": 500,
+			"itemUseTime": 0,
+			"maxItemDurability": 1000000,
+			"itemWeight": 10,
+			"rotToItemId": "None",
+			"storageSpaceDecayRate":
+			{
+			},
+			"itemShelfLife": -1,
+			"rateOfDecay":
+			{
+			},
+			"temperatureThreshold": [],
+			"rawMaterial": [],
+			"needHight": 0,
+			"stackModels": [],
+			"smallGridCount": 1,
+			"itemIcon": "/Game/Mods/FoxColours/Art/Textures/T_NineTailFox_Ear_Icon.T_NineTailFox_Ear_Icon",
+			"itemPrice": 250,
+			"bCanBeDismantled": false,
+			"dismantledMaterials":
+			{
+			},
+			"recoverValue": 0,
+			"maxStackSize": 1,
+			"itemQuality": "Orange",
+			"itemDescription": "A charming ornament worn only by those in the highest authority. Inspired by the majestic nine-tailed, silver-white fox of Qingqiu.",
+			"itemName": "Qingqiu Nine-Tailed Fox Ear Ornament",
+			"itemModel": "/Game/Art/Meshes/Buiding/BaiJian/FangJu/Item_Equipment_ArmorB01.Item_Equipment_ArmorB01",
+			"groundInventoryType": "Equipment",
+			"formatItemDescription":
+			{
+				"textMain": "",
+				"textParams":
+				{
+				}
+			},
+			"itemGrade": "Tier 1",
+			"itemSubstituteClass": "None",
+			"gameplayTag":
+			{
+				"tagName": "None"
+			},
+			"beforeObserveInformationWidget": "None",
+			"informationWidget": "EquipmentInfo",
+			"tipInformationWidget": "EquipmentTip",
+			"socketName":
+			{
+			},
+			"gOAPActions": [
+				"GetItem",
+				"TransItem"
+			],
+			"behaviorAnimation":
+			{
+			},
+			"behaviorBlendAnimation":
+			{
+			},
+			"behaviorItemMesh":
+			{
+			},
+			"itemSound":
+			{
+			},
+			"effectContainerMap":
+			{
+			},
+			"growScore": 250,
+			"forMulaId": "None",
+			"templateId": "None",
+			"iD": "FoxColours_NineTailFox_Ear"
+		}
+	}
+}
