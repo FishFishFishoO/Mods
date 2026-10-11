@@ -1,0 +1,178 @@
+{
+	"StructName": "/Game/CharacterEditor/Base/Structures/FAnatomyProfile_V10.FAnatomyProfile_V10",
+	"Rows":
+	{
+		"archerm":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Body/man_body2/SkeletalMeshes/man_body2.man_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Body/man_body2/Materials/M_NewSkin_Man3.M_NewSkin_Man3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Head/man_head3/SkeletalMeshes/man_head3.man_head3'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [
+						{
+							"head":
+							{
+								"man_head2_M4": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Head/man_head3/Materials/man_head2_M4.man_head2_M4'",
+								"m_Teethees_Man": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Head/man_head3/Materials/M_Teethees_Man.M_Teethees_Man'",
+								"m_EyeRefractive_inst_L4": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Head/man_head3/Materials/M_EyeRefractive_Inst_L4.M_EyeRefractive_Inst_L4'",
+								"m_Hide1": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Head/man_head3/Materials/M_Hide1.M_Hide1'",
+								"mI_Face_EyeShell1": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Head/man_head3/Materials/MI_Face_EyeShell1.MI_Face_EyeShell1'",
+								"m_NewWoMan_JieMao3": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/archer_m/Art/Meshes/Actor/Human_Group/Head/man_head3/Materials/M_NewWoMan_JieMao3.M_NewWoMan_JieMao3'"
+							}
+						}
+					],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "/Game/Mods/archer_m/UI/Lu_Avatar.Lu_Avatar"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Lu Yuanning",
+					"anatomy": "ERWMaleAdult",
+					"iD": "AE428DEB4BF00E100DD1A3803624EE12",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Male",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [
+						{
+							"data Asset": "/Game/CharacterEditor/Base/Blueprints/DataAssets/BP_CDA_Hairstyle.BP_CDA_Hairstyle_C'/Game/Mods/archer_m/Assets/CDA_LuYuanning_Hair.CDA_LuYuanning_Hair'"
+						}
+					],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/archer_m/UI/Lu_Avatar.Lu_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		}
+	}
+}

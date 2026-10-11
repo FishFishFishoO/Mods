@@ -1,0 +1,62 @@
+{
+	"StructName": "/Script/CreateModPlugin.ModFabricateEquipmentData",
+	"Rows":
+	{
+		"BlackFox_Hats_Ear":
+		{
+			"equipmentRandomPools": [
+				"BlackFox_Hats_Ear_White",
+				"BlackFox_Hats_Ear_Green",
+				"BlackFox_Hats_Ear_Blue",
+				"BlackFox_Hats_Ear_Purple",
+				"BlackFox_Hats_Ear_Orange",
+				"BlackFox_Hats_Ear_Golden"
+			],
+			"comment": "Ebony fox ears",
+			"templateId": "None",
+			"iD": "BlackFox_Hats_Ear"
+		},
+		"BlackFox_Tail_1":
+		{
+			"equipmentRandomPools": [
+				"BlackFox_Tail_1_White",
+				"BlackFox_Tail_1_Green",
+				"BlackFox_Tail_1_Blue",
+				"BlackFox_Tail_1_Purple",
+				"BlackFox_Tail_1_Orange",
+				"BlackFox_Tail_1_Golden"
+			],
+			"comment": "Ebony fox tail",
+			"templateId": "None",
+			"iD": "BlackFox_Tail_1"
+		},
+		"WhiteFox_Hats_Ear":
+		{
+			"equipmentRandomPools": [
+				"WhiteFox_Hats_Ear_White",
+				"WhiteFox_Hats_Ear_Green",
+				"WhiteFox_Hats_Ear_Blue",
+				"WhiteFox_Hats_Ear_Purple",
+				"WhiteFox_Hats_Ear_Orange",
+				"WhiteFox_Hats_Ear_Golden"
+			],
+			"comment": "Snow fox ears",
+			"templateId": "None",
+			"iD": "WhiteFox_Hats_Ear"
+		},
+		"WhiteFox_Tail_1":
+		{
+			"equipmentRandomPools": [
+				"WhiteFox_Tail_1_White",
+				"WhiteFox_Tail_1_Green",
+				"WhiteFox_Tail_1_Blue",
+				"WhiteFox_Tail_1_Purple",
+				"WhiteFox_Tail_1_Orange",
+				"WhiteFox_Tail_1_Golden"
+			],
+			"comment": "Snow fox tail",
+			"templateId": "None",
+			"iD": "WhiteFox_Tail_1"
+		}
+	}
+}

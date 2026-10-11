@@ -1,0 +1,33 @@
+{
+	"ModId": "silvercrownhair",
+	"ModName": "Silver Crown Hair",
+	"Version": "1.0.0",
+	"Author": "FishFishFish",
+	"Description": "A new male hairstyle for the character editor: Typical wuxia character hairstyle.",
+	"Icon": "SilverCrownHair.png",
+	"MainLuaFile": "Main.lua",
+	"NewGameLoad": true,
+	"MinGameVersion": "0.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"ModInformationAssetPath": "/Game/Mods/silvercrownhair/DA_ModDataAsset.DA_ModDataAsset",
+	"DataTableConfigs": [
+		{
+			"ConfigType": "CharacterAppearancePreset",
+			"JsonFile": "Config/CharacterAppearancePreset.json",
+			"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+			"bOverrideData": false
+		}
+	],
+	"DataAssetConfigs": [
+		{
+			"AssetType": "NewGameConfiguration",
+			"JsonFile": "Config/NewGameConfiguration.json",
+			"bOverrideData": false
+		}
+	],
+	"ModToolVersion": "1.0.0",
+	"PublishedFileId": "3816601655"
+}

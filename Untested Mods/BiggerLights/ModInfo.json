@@ -1,0 +1,19 @@
+{
+	"ModId": "BiggerLights",
+	"ModName": "Bigger Lights",
+	"Version": "1.0.0",
+	"Author": "FishFishFish",
+	"Description": "Lamps, lanterns, torches and braziers light twice as large an area, so a few lamps can light a big room. Change RANGE_MULT (light range), LIGHT_VALUE_MULT (light value) and GLOW_MULT (visible glow) at the top of Main.lua. 1 = vanilla.",
+	"Icon": "",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "",
+	"NewGameLoad": false,
+	"MinGameVersion": "1.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0"
+}

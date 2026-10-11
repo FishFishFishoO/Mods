@@ -1,0 +1,26 @@
+{
+	"ModId": "portraits_male",
+	"ModName": "Portraits (Male)",
+	"Version": "1.0.0",
+	"Author": "FishFishFish",
+	"Description": "Adds 14 new male portraits to the new-game character creation screen.",
+	"Icon": "Male.png",
+	"MainLuaFile": "Main.lua",
+	"NewGameLoad": true,
+	"MinGameVersion": "0.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"ModInformationAssetPath": "/Game/Mods/portraits_male/DA_ModDataAsset.DA_ModDataAsset",
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [
+		{
+			"AssetType": "NewGameConfiguration",
+			"JsonFile": "Config/NewGameConfiguration.json",
+			"bOverrideData": false
+		}
+	],
+	"ModToolVersion": "1.0.0",
+	"PublishedFileId": "3814507332"
+}

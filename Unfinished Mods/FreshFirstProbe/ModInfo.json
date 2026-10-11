@@ -1,0 +1,19 @@
+{
+	"ModId": "FreshFirstProbe",
+	"ModName": "Fresh First (Test)",
+	"Version": "0.2.1",
+	"Author": "FishFishFish",
+	"Description": "Test only. G writes the haul jobs to the mod log. F9 turns 'food first' on/off: food and other quick-spoiling items get hauled before materials. Nothing is saved.",
+	"Icon": "",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "",
+	"NewGameLoad": false,
+	"MinGameVersion": "1.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0"
+}

@@ -1,0 +1,20 @@
+{
+	"ModId": "Stack999",
+	"ModName": "Stack 999",
+	"Version": "1.2.0",
+	"Author": "FishFishFish",
+	"Description": "Sets the stack limit to 999.",
+	"Icon": "x999.png",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "",
+	"NewGameLoad": false,
+	"MinGameVersion": "1.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0",
+	"PublishedFileId": "3815349487"
+}

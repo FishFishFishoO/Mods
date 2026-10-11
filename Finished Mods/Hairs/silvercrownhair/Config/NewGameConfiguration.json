@@ -1,0 +1,39 @@
+{
+	"AssetClass": "/Script/CreateModPlugin.ModNewGameConfigAsset",
+	"protagonistPresetDataId": "None",
+	"protagonistFemaleAvatar": [],
+	"half_ProtagonistFemaleAvatar": [],
+	"half_TourFemaleAvatar": [],
+	"small_TourFemaleAvatar": [],
+	"half_ProtagonistFemaleCenterAvatar": [],
+	"protagonistMaleAvatar": [
+		"/Game/Mods/silvercrownhair/UI/Portrait_Avatar.Portrait_Avatar"
+	],
+	"half_ProtagonistMaleAvatar": [
+		"/Game/Mods/silvercrownhair/UI/Portrait_HalfAvatar.Portrait_HalfAvatar"
+	],
+	"half_TourMaleAvatar": [
+		"/Game/Mods/silvercrownhair/UI/Portrait_HalfTourAvatar.Portrait_HalfTourAvatar"
+	],
+	"small_TourMaleAvatar": [
+		"/Game/Mods/silvercrownhair/UI/Portrait_SmallTourAvatar.Portrait_SmallTourAvatar"
+	],
+	"half_ProtagonistMaleCenterAvatar": [
+		"/Game/Mods/silvercrownhair/UI/Portrait_HalfUIAvatar.Portrait_HalfUIAvatar"
+	],
+	"protagonistSkillPoint": 0,
+	"protagonistFirePoint": 0,
+	"perSkillMaxFirePoint": 0,
+	"protagonistCharacteristicNum": 0,
+	"initNewGameTeamMemberNum": 0,
+	"unLockBuildingId": [],
+	"unlockFormulaId": [],
+	"unlockPlantId": [],
+	"unlockGameFunction": [],
+	"initNewGameResourceCoinNum": 0,
+	"initNewGameStoryCoinNum": 0,
+	"protagonistCharacteristicRand":
+	{
+	},
+	"nativeClass": "/Script/CoreUObject.Class'/Script/CreateModPlugin.ModNewGameConfigAsset'"
+}

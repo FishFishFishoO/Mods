@@ -1,0 +1,39 @@
+{
+	"ModId": "fist_f",
+	"ModName": "Yun Tiao Tiao",
+	"Version": "1.1.0",
+	"Author": "FishFishFish",
+	"Description": "First Female Mod",
+	"Icon": "YunAvatar.png",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "/Game/Mods/fist_f/DA_ModDataAsset.DA_ModDataAsset",
+	"NewGameLoad": true,
+	"MinGameVersion": "0.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [
+		{
+			"ConfigType": "CharacterConfig",
+			"JsonFile": "Config/CharacterConfig.json",
+			"StructName": "/Script/CreateModPlugin.ModHumanData",
+			"bOverrideData": false
+		},
+		{
+			"ConfigType": "CharacterAppearancePreset",
+			"JsonFile": "Config/CharacterAppearancePreset.json",
+			"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+			"bOverrideData": false
+		},
+		{
+			"ConfigType": "CharacterAnatomyProfiles",
+			"JsonFile": "Config/CharacterAnatomyProfiles.json",
+			"StructName": "/Game/CharacterEditor/Base/Structures/FAnatomyProfile_V10.FAnatomyProfile_V10",
+			"bOverrideData": false
+		}
+	],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0",
+	"PublishedFileId": "3804728045"
+}

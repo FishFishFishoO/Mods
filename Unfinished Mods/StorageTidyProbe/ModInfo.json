@@ -1,0 +1,19 @@
+{
+	"ModId": "StorageTidyProbe",
+	"ModName": "Storage Tidy (Test)",
+	"Version": "0.1.2",
+	"Author": "FishFishFish",
+	"Description": "Test only. K lists storages. L toggles Keep empty. O unticks the first item in the selected storage and boosts hauling; M undoes it. Use on a spare save.",
+	"Icon": "",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "",
+	"NewGameLoad": false,
+	"MinGameVersion": "1.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0"
+}

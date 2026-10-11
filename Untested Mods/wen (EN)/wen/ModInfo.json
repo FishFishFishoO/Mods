@@ -1,0 +1,38 @@
+{
+	"ModId": "wen",
+	"ModName": "Wen Xiuyuan",
+	"Version": "0.2.0",
+	"Author": "FishFishFish",
+	"Description": "Swordsman Wen Xiuyuan - playable preset and recruitable disciple (test build).",
+	"Icon": "WenAvatar.png",
+	"MainLuaFile": "Main.lua",
+	"NewGameLoad": true,
+	"MinGameVersion": "0.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"ModInformationAssetPath": "/Game/Mods/wen/DA_ModDataAsset.DA_ModDataAsset",
+	"DataTableConfigs": [
+		{
+			"ConfigType": "CharacterConfig",
+			"JsonFile": "Config/CharacterConfig.json",
+			"StructName": "/Script/CreateModPlugin.ModHumanData",
+			"bOverrideData": false
+		},
+		{
+			"ConfigType": "CharacterAppearancePreset",
+			"JsonFile": "Config/CharacterAppearancePreset.json",
+			"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+			"bOverrideData": false
+		},
+		{
+			"ConfigType": "CharacterAnatomyProfiles",
+			"JsonFile": "Config/CharacterAnatomyProfiles.json",
+			"StructName": "/Game/CharacterEditor/Base/Structures/FAnatomyProfile_V10.FAnatomyProfile_V10",
+			"bOverrideData": false
+		}
+	],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0"
+}

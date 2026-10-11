@@ -1,0 +1,116 @@
+{
+	"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+	"Rows":
+	{
+		"monkm":
+		{
+			"meta Data":
+			{
+				"name": "monkm",
+				"anatomy": "ERWMaleAdult",
+				"iD": "F3FCEDED42CFCDA9D3845B86DD4C548C",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Male",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.10000000000000001,
+					"size": 1
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [
+					{
+						"data Asset": "/Game/CharacterEditor/Base/Blueprints/DataAssets/BP_CDA_Hairstyle.BP_CDA_Hairstyle_C'/Game/Mods/monk_m/Assets/CDA_BaiYuanyi_Hair.CDA_BaiYuanyi_Hair'"
+					}
+				],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monk_m/UI/Bai_Avatar.Bai_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		}
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+	"Rows":
+	{
+		"archerm":
+		{
+			"meta Data":
+			{
+				"name": "archerm",
+				"anatomy": "ERWMaleAdult",
+				"iD": "168C5DC545909E6B549E67ACDFAC91C6",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Male",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.10000000000000001,
+					"size": 0.93600000000000005
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [
+					{
+						"data Asset": "/Game/CharacterEditor/Base/Blueprints/DataAssets/BP_CDA_Hairstyle.BP_CDA_Hairstyle_C'/Game/Mods/archer_m/Assets/CDA_LuYuanning_Hair.CDA_LuYuanning_Hair'"
+					},
+					{
+						"data Asset": "/Game/CharacterEditor/Base/Blueprints/DataAssets/BP_CDA_Hairstyle.BP_CDA_Hairstyle_C'/Game/Mods/archer_m/Assets/CDA_LuYuanning_Beard.CDA_LuYuanning_Beard'"
+					}
+				],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/archer_m/UI/Lu_Avatar.Lu_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		}
+	}
+}

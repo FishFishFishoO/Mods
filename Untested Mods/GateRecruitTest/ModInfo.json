@@ -1,0 +1,19 @@
+{
+	"ModId": "GateRecruitTest",
+	"ModName": "Gate Recruit Test",
+	"Version": "1.0.0",
+	"Author": "FishFishFish",
+	"Description": "TEST ONLY, do not upload. F8 = a modded character arrives at the sect gate right away (Request to join). F7 = write the gate recruit rules to the log. Needs at least one character mod with gate recruiting enabled.",
+	"Icon": "",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "",
+	"NewGameLoad": false,
+	"MinGameVersion": "1.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0"
+}

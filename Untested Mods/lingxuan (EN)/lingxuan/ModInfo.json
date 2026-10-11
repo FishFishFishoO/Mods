@@ -1,0 +1,39 @@
+{
+	"ModId": "lingxuan",
+	"ModName": "LingXuan",
+	"Version": "1.3.0",
+	"Author": "FishFishFish",
+	"Description": "Sword Disciple for Eastern Era",
+	"Icon": "LingXuanAvatar.png",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "/Game/Mods/lingxuan/DA_ModDataAsset.DA_ModDataAsset",
+	"NewGameLoad": true,
+	"MinGameVersion": "0.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [
+		{
+			"ConfigType": "CharacterConfig",
+			"JsonFile": "Config/CharacterConfig.json",
+			"StructName": "/Script/CreateModPlugin.ModHumanData",
+			"bOverrideData": false
+		},
+		{
+			"ConfigType": "CharacterAppearancePreset",
+			"JsonFile": "Config/CharacterAppearancePreset.json",
+			"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+			"bOverrideData": false
+		},
+		{
+			"ConfigType": "CharacterAnatomyProfiles",
+			"JsonFile": "Config/CharacterAnatomyProfiles.json",
+			"StructName": "/Game/CharacterEditor/Base/Structures/FAnatomyProfile_V10.FAnatomyProfile_V10",
+			"bOverrideData": false
+		}
+	],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0",
+	"PublishedFileId": "3794749439"
+}

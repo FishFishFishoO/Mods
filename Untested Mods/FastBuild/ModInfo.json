@@ -1,0 +1,19 @@
+{
+	"ModId": "FastBuild",
+	"ModName": "Fast Build",
+	"Version": "1.1.0",
+	"Author": "FishFishFish",
+	"Description": "Buildings finish instantly once the builder has delivered the materials. Set BUILD_SPEED in Main.lua: 0 = instant, 2 = 2x, 4 = 4x. Demolishing is unchanged.",
+	"Icon": "fastbuild.png",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "",
+	"NewGameLoad": false,
+	"MinGameVersion": "1.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0"
+}

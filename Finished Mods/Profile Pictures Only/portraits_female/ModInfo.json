@@ -1,0 +1,26 @@
+{
+	"ModId": "portraits_female",
+	"ModName": "Portraits (Female)",
+	"Version": "1.0.0",
+	"Author": "FishFishFish",
+	"Description": "Adds 11 new female portraits to the new-game character creation screen.",
+	"Icon": "female.png",
+	"MainLuaFile": "Main.lua",
+	"NewGameLoad": true,
+	"MinGameVersion": "0.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"ModInformationAssetPath": "/Game/Mods/portraits_female/DA_ModDataAsset.DA_ModDataAsset",
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [
+		{
+			"AssetType": "NewGameConfiguration",
+			"JsonFile": "Config/NewGameConfiguration.json",
+			"bOverrideData": false
+		}
+	],
+	"ModToolVersion": "1.0.0",
+	"PublishedFileId": "3814512077"
+}

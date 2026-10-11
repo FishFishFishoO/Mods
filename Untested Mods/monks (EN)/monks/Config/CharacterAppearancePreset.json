@@ -1,0 +1,862 @@
+{
+	"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+	"Rows":
+	{
+		"monk_jingyi":
+		{
+			"meta Data":
+			{
+				"name": "monk_jingyi",
+				"anatomy": "ERWFemaleAdult",
+				"iD": "BB503F72C4A35AAAADEF9B465BAA2BB3",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Female",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.10000000000000001,
+					"size": 0.59950000000000003
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monks/UI/Jingyi_Avatar.Jingyi_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		},
+		"monk_ruoning":
+		{
+			"meta Data":
+			{
+				"name": "monk_ruoning",
+				"anatomy": "ERWFemaleAdult",
+				"iD": "EAF63EDD53AC52E99FD47FD16D94ADD9",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Female",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.12,
+					"size": 0.61770000000000003
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monks/UI/Ruoning_Avatar.Ruoning_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		},
+		"monk_huizhen":
+		{
+			"meta Data":
+			{
+				"name": "monk_huizhen",
+				"anatomy": "ERWFemaleAdult",
+				"iD": "A40E059E543952C59DB3B34141767E2F",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Female",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.12,
+					"size": 0.63580000000000003
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monks/UI/Huizhen_Avatar.Huizhen_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		},
+		"monk_huian":
+		{
+			"meta Data":
+			{
+				"name": "monk_huian",
+				"anatomy": "ERWMaleAdult",
+				"iD": "675B57F6D01951A6A0B5E9D3E64EB02F",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Male",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.34999999999999998,
+					"size": 0.93679999999999997
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monks/UI/Huian_Avatar.Huian_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		},
+		"monk_jieming":
+		{
+			"meta Data":
+			{
+				"name": "monk_jieming",
+				"anatomy": "ERWMaleAdult",
+				"iD": "613E83E247705C4B976B272EC235D0DB",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Male",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+						"skin Tint":
+						{
+							"h": 31,
+							"s": 3,
+							"v": 0.69999998807907104,
+							"a": 0,
+							"intensity": 1
+						}
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.25,
+					"size": 0.96319999999999995
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monks/UI/Jieming_Avatar.Jieming_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		},
+		"monk_pushan":
+		{
+			"meta Data":
+			{
+				"name": "monk_pushan",
+				"anatomy": "ERWMaleAdult",
+				"iD": "E61FF2C329A354DBAD7B24ED1233B405",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Male",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.20000000000000001,
+					"size": 0.94740000000000002
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monks/UI/Pushan_Avatar.Pushan_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		},
+		"monk_xingyun":
+		{
+			"meta Data":
+			{
+				"name": "monk_xingyun",
+				"anatomy": "ERWMaleAdult",
+				"iD": "4ED5082C23C35A499CF4FBFC40B14046",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Male",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.050000000000000003,
+					"size": 0.91049999999999998
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monks/UI/Xingyun_Avatar.Xingyun_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		},
+		"monk_mingjing":
+		{
+			"meta Data":
+			{
+				"name": "monk_mingjing",
+				"anatomy": "ERWMaleAdult",
+				"iD": "D1AF8504CB3C5D3BABC049D3CC865A8D",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Male",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+					"age": 0.14999999999999999,
+					"size": 0.92110000000000003
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "/Game/Mods/monks/UI/Mingjing_Avatar.Mingjing_Avatar",
+			"characterEquipmentIds":
+			{
+			}
+		}
+	}
+}

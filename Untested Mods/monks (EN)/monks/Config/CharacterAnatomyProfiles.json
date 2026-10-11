@@ -1,0 +1,1278 @@
+{
+	"StructName": "/Game/CharacterEditor/Base/Structures/FAnatomyProfile_V10.FAnatomyProfile_V10",
+	"Rows":
+	{
+		"monk_jingyi":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Body/woman_body2/woman_body2.woman_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/monks/Art/Body/woman_body2/M_NewSkin_WoMan3.M_NewSkin_WoMan3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Head/woman_head_MX03/woman_head_MX03.woman_head_MX03'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Shen Jingyi",
+					"anatomy": "ERWFemaleAdult",
+					"iD": "42EFA7002F0D5D76A90E22B0CB25ED58",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Female",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+						"age": 0.10000000000000001,
+						"size": 0.59950000000000003
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/monks/UI/Jingyi_Avatar.Jingyi_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		},
+		"monk_ruoning":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Body/woman_body2/woman_body2.woman_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/monks/Art/Body/woman_body2/M_NewSkin_WoMan3.M_NewSkin_WoMan3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Head/woman_head_MX02/woman_head_MX02.woman_head_MX02'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Lin Ruoning",
+					"anatomy": "ERWFemaleAdult",
+					"iD": "2E09E0A0AF64557B852DD2C6B625008C",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Female",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+						"age": 0.12,
+						"size": 0.61770000000000003
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/monks/UI/Ruoning_Avatar.Ruoning_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		},
+		"monk_huizhen":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Body/woman_body2/woman_body2.woman_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/monks/Art/Body/woman_body2/M_NewSkin_WoMan3.M_NewSkin_WoMan3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Head/woman_head_MX04/woman_head_MX04.woman_head_MX04'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Chen Huizhen",
+					"anatomy": "ERWFemaleAdult",
+					"iD": "B53D9EB284FE593CBA6548CCDA6042AA",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Female",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+						"age": 0.12,
+						"size": 0.63580000000000003
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/monks/UI/Huizhen_Avatar.Huizhen_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		},
+		"monk_huian":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Body/man_body2/man_body2.man_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/monks/Art/Body/man_body2/M_NewSkin_Man3.M_NewSkin_Man3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Head/man_head2/man_head2.man_head2'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Shi Huian",
+					"anatomy": "ERWMaleAdult",
+					"iD": "1FCB33920C1A5DEDA4BFA77200612202",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Male",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+						"age": 0.34999999999999998,
+						"size": 0.93679999999999997
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/monks/UI/Huian_Avatar.Huian_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		},
+		"monk_jieming":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Body/man_body2/man_body2.man_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/monks/Art/Body/man_body2/M_NewSkin_Man3.M_NewSkin_Man3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Head/man_head6/man_head6.man_head6'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Shi Jieming",
+					"anatomy": "ERWMaleAdult",
+					"iD": "4C6E8E33B60E57469E2C132A461FE62B",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Male",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+							"skin Tint":
+							{
+								"h": 31,
+								"s": 3,
+								"v": 0.69999998807907104,
+								"a": 0,
+								"intensity": 1
+							}
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+						"age": 0.25,
+						"size": 0.96319999999999995
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/monks/UI/Jieming_Avatar.Jieming_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		},
+		"monk_pushan":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Body/man_body2/man_body2.man_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/monks/Art/Body/man_body2/M_NewSkin_Man3.M_NewSkin_Man3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Head/man_head3/man_head3.man_head3'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Shi Pushan",
+					"anatomy": "ERWMaleAdult",
+					"iD": "4D690E1B92325AC883541F88592A6BA1",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Male",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+						"age": 0.20000000000000001,
+						"size": 0.94740000000000002
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/monks/UI/Pushan_Avatar.Pushan_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		},
+		"monk_xingyun":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Body/man_body2/man_body2.man_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/monks/Art/Body/man_body2/M_NewSkin_Man3.M_NewSkin_Man3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Head/man_head4/man_head4.man_head4'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Shi Xingyun",
+					"anatomy": "ERWMaleAdult",
+					"iD": "F080BB2161ED524092033A077012FD6B",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Male",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+						"age": 0.050000000000000003,
+						"size": 0.91049999999999998
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/monks/UI/Xingyun_Avatar.Xingyun_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		},
+		"monk_mingjing":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Body/man_body2/man_body2.man_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/monks/Art/Body/man_body2/M_NewSkin_Man3.M_NewSkin_Man3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/monks/Art/Head/man_head5/man_head5.man_head5'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Shi Mingjing",
+					"anatomy": "ERWMaleAdult",
+					"iD": "8DB60B524B285100A5DF5D3405E75036",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Male",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+						"age": 0.14999999999999999,
+						"size": 0.92110000000000003
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "/Game/Mods/monks/UI/Mingjing_Avatar.Mingjing_Avatar",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": true
+		}
+	}
+}

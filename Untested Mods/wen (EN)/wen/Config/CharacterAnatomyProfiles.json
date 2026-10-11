@@ -1,0 +1,174 @@
+{
+	"StructName": "/Game/CharacterEditor/Base/Structures/FAnatomyProfile_V10.FAnatomyProfile_V10",
+	"Rows":
+	{
+		"wenm":
+		{
+			"body":
+			{
+				"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/wen/Art/Meshes/Actor/Human_Group/Body/man_body2/SkeletalMeshes/man_body2.man_body2'",
+				"anim Instance Class": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/Blueprints/Character/Animation/BPA_CharacterAnimation_Template.BPA_CharacterAnimation_Template_C'",
+				"skin Material Sets": [
+					{
+						"body":
+						{
+							"skin": "/Script/Engine.MaterialInstanceConstant'/Game/Mods/wen/Art/Meshes/Actor/Human_Group/Body/man_body2/Materials/M_NewSkin_Man3.M_NewSkin_Man3'"
+						},
+						"head":
+						{
+						}
+					}
+				],
+				"skin Texture Sets":
+				{
+				},
+				"eyes Material Sets": [
+					{
+						"eyes":
+						{
+						}
+					}
+				],
+				"face Variants":
+				{
+					"group Name": "None",
+					"iDs": []
+				}
+			},
+			"heads": [
+				{
+					"mesh": "/Script/Engine.SkeletalMesh'/Game/Mods/wen/Art/Meshes/Actor/Human_Group/Head/man_head2/SkeletalMeshes/man_head2.man_head2'",
+					"anim Instance Class (Override)": "None",
+					"skin Material Sets (Overrides)": [],
+					"skin Texture Sets (Overrides)":
+					{
+					},
+					"eyes Material Sets (Overrides)": [],
+					"face Variants (Overrides)":
+					{
+						"group Name": "None",
+						"iDs": []
+					},
+					"icon": "None"
+				}
+			],
+			"default Customization Profile":
+			{
+				"meta Data":
+				{
+					"name": "Wen Xiuyuan",
+					"anatomy": "ERWMaleAdult",
+					"iD": "B052FEB471A34F13998E59CC78FBA024",
+					"showInEditor": false,
+					"race": "Human",
+					"gender": "Male",
+					"generation": "Adult"
+				},
+				"basebody":
+				{
+					"head":
+					{
+						"index": 0
+					},
+					"skin":
+					{
+						"material Index": 0,
+						"texture Sets": [],
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+						}
+					},
+					"eyes":
+					{
+						"material Index": 0,
+						"scalar Parameters":
+						{
+						},
+						"hDR Vector Parameters":
+						{
+							"iris Hue Tint":
+							{
+								"h": 210.58332824707031,
+								"s": 0.80000001192092896,
+								"v": 0.80000001192092896,
+								"a": 1,
+								"intensity": 1
+							}
+						}
+					},
+					"morph Targets":
+					{
+					},
+					"morph Target Groups":
+					{
+					},
+					"anim Instance Alphas":
+					{
+					}
+				},
+				"hairstyle":
+				{
+					"data Assets": [
+						{
+							"data Asset": "/Game/CharacterEditor/Base/Blueprints/DataAssets/BP_CDA_Hairstyle.BP_CDA_Hairstyle_C'/Game/Mods/wen/Assets/CDA_Wen_Hair.CDA_Wen_Hair'"
+						}
+					],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"groom":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"apparel":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"equipment":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"attachments":
+				{
+					"data Assets": [],
+					"global Scalar Parameters":
+					{
+					},
+					"global HDR Vector Parameters":
+					{
+					}
+				},
+				"avatar": "None",
+				"characterEquipmentIds":
+				{
+				}
+			},
+			"showApparel": false
+		}
+	}
+}

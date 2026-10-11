@@ -1,0 +1,19 @@
+{
+	"ModId": "QoL",
+	"ModName": "QoL",
+	"Version": "1.0.0",
+	"Author": "FishFishFish",
+	"Description": "Quality-of-life changes in one mod. Construction 1.5x faster, deconstruction 2x faster. Hotkeys: G = Cut, K = Harvest/Collect/Mine, L = Cancel order, O = Priority execution. Deconstruct orders get priority automatically. Disciple names are hidden; F9 shows/hides them. Sticks and Jade Bricks make 2x per batch, wood fuel lasts 2x longer, buildings have 2x durability, adventures give 3x martial arts fragments. Every part can be changed or switched off at the top of Main.lua.",
+	"Icon": "",
+	"MainLuaFile": "Main.lua",
+	"ModInformationAssetPath": "",
+	"NewGameLoad": false,
+	"MinGameVersion": "1.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"DataTableConfigs": [],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0"
+}
