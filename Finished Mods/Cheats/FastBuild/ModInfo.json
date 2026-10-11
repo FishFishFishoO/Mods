@@ -3,7 +3,7 @@
 	"ModName": "Instant Build",
 	"Version": "1.1.0",
 	"Author": "FishFishFish",
-	"Description": "Place the materials in your building's blueprint and watch it instantly appear.",
+	"Description": "Buildings instantly finish after materials arrive.",
 	"Icon": "instantbuild.png",
 	"MainLuaFile": "Main.lua",
 	"ModInformationAssetPath": "",
