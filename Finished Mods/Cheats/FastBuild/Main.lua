@@ -1,5 +1,5 @@
 -- ============================================
--- FastBuild: buildings take less work to construct (currently: instant).
+-- Instant Build (ModId FastBuild): buildings finish as soon as the materials are delivered.
 -- Divides Workload in DT_Buildconfig, in memory only (never touches the save).
 -- Vanilla: most buildings need ~1500 work, the biggest 20000.
 -- Demolish work (DestoryWorkload) is left alone.
@@ -153,7 +153,7 @@ end
 -- ============================================
 
 function Mod:OnModLoaded()
-    self:Log("FastBuild loaded")
+    self:Log("Instant Build loaded")
     if not self:SafeApply("load") then
         self:StartRetryTimer()
     end

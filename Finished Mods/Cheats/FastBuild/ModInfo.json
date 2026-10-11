@@ -1,10 +1,10 @@
 {
 	"ModId": "FastBuild",
-	"ModName": "Fast Build",
+	"ModName": "Instant Build",
 	"Version": "1.1.0",
 	"Author": "FishFishFish",
-	"Description": "Buildings finish instantly once the builder has delivered the materials. Set BUILD_SPEED in Main.lua: 0 = instant, 2 = 2x, 4 = 4x. Demolishing is unchanged.",
-	"Icon": "fastbuild.png",
+	"Description": "Place the materials in your building's blueprint and watch it instantly appear.",
+	"Icon": "instantbuild.png",
 	"MainLuaFile": "Main.lua",
 	"ModInformationAssetPath": "",
 	"NewGameLoad": false,
