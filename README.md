@@ -1,6 +1,6 @@
 # Fish's Mods
 
-Mods for **Eastern Era** by FishFishFish. Thank you for testing!
+Mods for **Eastern Era** by FishFishFish. Thank you for helping me test them!
 
 ## Download
 
