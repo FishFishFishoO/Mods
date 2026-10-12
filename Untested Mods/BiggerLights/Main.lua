@@ -10,8 +10,9 @@
 --   6: cloud-shadow moon lamp
 -- Windows are light sources too but have no range, so they are left alone.
 --
--- Optional extras: LIGHT_VALUE_MULT scales each lamp's light value (LightSourceTemperatureEffect),
--- GLOW_MULT scales the visible glow radius so the picture matches the bigger range.
+-- Performance: gameplay range only. The visible lights are left exactly as vanilla,
+-- so the mod adds no lights, no shadows and no extra rendering cost. It runs once per
+-- game load and does nothing while you play.
 -- Safe to run repeatedly: always scales the original values, never stacks.
 -- ============================================
 
@@ -20,10 +21,8 @@ local Mod = {}
 -- ===== Config =====
 -- 1 = vanilla, 1.5 = 50% bigger, 2 = twice the range.
 local RANGE_MULT = 2
--- 1 = vanilla. Raise it if rooms still read as too dark even when fully covered.
+-- 1 = vanilla. Scales each lamp's Luminance (LightSourceTemperatureEffect).
 local LIGHT_VALUE_MULT = 1
--- 1 = vanilla glow. Purely visual.
-local GLOW_MULT = 1.5
 -- How often to retry until the game's config table is available (seconds).
 local RETRY_INTERVAL = 1.0
 local MAX_RETRIES = 120
@@ -71,27 +70,6 @@ local function ScaledInt(Value, Mult)
     return math.max(1, math.floor(Value * Mult + 0.5))
 end
 
-local function ScaledFloat(Value, Mult)
-    if Value <= 0 or Mult <= 0 then
-        return Value
-    end
-    return Value * Mult
-end
-
--- Snapshot of the values this mod changes, taken from an untouched row.
-local function Snapshot(Row)
-    local Snap = {
-        SizeX = Row.BuildingEffectSize.X,
-        SizeY = Row.BuildingEffectSize.Y,
-        Value = Row.LightSourceTemperatureEffect,
-        Glow = {},
-    }
-    for i = 1, Row.LightParams:Num() do
-        Snap.Glow[i] = Row.LightParams:Get(i).AttenuationRadius
-    end
-    return Snap
-end
-
 -- ============================================
 -- Core
 -- ============================================
@@ -113,24 +91,19 @@ function Mod:ApplyLights(Reason)
         if UE.UDataTableFunctionLibrary.GetDataTableRowFromName(DT, RowName, Row)
             and Row.IsLightSource and Row.HaveEffectSize then
             if Original[Name] == nil then
-                Original[Name] = Snapshot(Row)
+                Original[Name] = {
+                    SizeX = Row.BuildingEffectSize.X,
+                    SizeY = Row.BuildingEffectSize.Y,
+                    Value = Row.LightSourceTemperatureEffect,
+                }
             end
             local Snap = Original[Name]
-
             local WantX = ScaledInt(Snap.SizeX, RANGE_MULT)
             local WantY = ScaledInt(Snap.SizeY, RANGE_MULT)
             local WantValue = ScaledInt(Snap.Value, LIGHT_VALUE_MULT)
 
-            local Same = Row.BuildingEffectSize.X == WantX
-                and Row.BuildingEffectSize.Y == WantY
-                and Row.LightSourceTemperatureEffect == WantValue
-            for g = 1, Row.LightParams:Num() do
-                if Snap.Glow[g] and Row.LightParams:Get(g).AttenuationRadius ~= ScaledFloat(Snap.Glow[g], GLOW_MULT) then
-                    Same = false
-                end
-            end
-
-            if Same then
+            if Row.BuildingEffectSize.X == WantX and Row.BuildingEffectSize.Y == WantY
+                and Row.LightSourceTemperatureEffect == WantValue then
                 AlreadyDone = AlreadyDone + 1
             else
                 local Size = Row.BuildingEffectSize
@@ -138,13 +111,6 @@ function Mod:ApplyLights(Reason)
                 Size.Y = WantY
                 Row.BuildingEffectSize = Size
                 Row.LightSourceTemperatureEffect = WantValue
-                for g = 1, Row.LightParams:Num() do
-                    if Snap.Glow[g] then
-                        local Light = Row.LightParams:Get(g)
-                        Light.AttenuationRadius = ScaledFloat(Snap.Glow[g], GLOW_MULT)
-                        Row.LightParams:Set(g, Light)
-                    end
-                end
                 if UE.UModLuaLibrary.ReplaceDataTableRow(DT, RowName, Row) then
                     Changed = Changed + 1
                 else
@@ -154,8 +120,8 @@ function Mod:ApplyLights(Reason)
         end
     end
 
-    self:Log(string.format("[%s] range x%s, light value x%s, glow x%s: changed %d, already %d, failed %d",
-        Reason, tostring(RANGE_MULT), tostring(LIGHT_VALUE_MULT), tostring(GLOW_MULT), Changed, AlreadyDone, Failed))
+    self:Log(string.format("[%s] range x%s, luminance x%s: changed %d, already %d, failed %d",
+        Reason, tostring(RANGE_MULT), tostring(LIGHT_VALUE_MULT), Changed, AlreadyDone, Failed))
     return true
 end
 

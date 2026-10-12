@@ -1,0 +1,26 @@
+{
+	"ModId": "shortcurls",
+	"ModName": "Short Curls",
+	"Version": "1.0.0",
+	"Author": "FishFishFish",
+	"Description": "A new female hairstyle for the character editor: a short, curly bob with a centre parting, soft waves framing the face and loose curls at the back and sides.",
+	"Icon": "ShortCurls.png",
+	"MainLuaFile": "Main.lua",
+	"NewGameLoad": true,
+	"MinGameVersion": "0.1",
+	"IncludeGameplayTags": false,
+	"GameplayTagsIniFile": "",
+	"AdditionalAssets": [],
+	"Dependencies": [],
+	"ModInformationAssetPath": "/Game/Mods/shortcurls/DA_ModDataAsset.DA_ModDataAsset",
+	"DataTableConfigs": [
+		{
+			"ConfigType": "CharacterAppearancePreset",
+			"JsonFile": "Config/CharacterAppearancePreset.json",
+			"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+			"bOverrideData": false
+		}
+	],
+	"DataAssetConfigs": [],
+	"ModToolVersion": "1.0.0"
+}

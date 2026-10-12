@@ -1,0 +1,114 @@
+{
+	"StructName": "/Game/CharacterEditor/Base/Structures/FCustomizationProfile_V10.FCustomizationProfile_V10",
+	"Rows":
+	{
+		"shortcurls_preload":
+		{
+			"meta Data":
+			{
+				"name": "shortcurls_preload",
+				"anatomy": "ERWFemaleAdult",
+				"iD": "069FC9106C1D431A9885DD76912BC1E5",
+				"showInEditor": false,
+				"race": "Human",
+				"gender": "Female",
+				"generation": "Adult"
+			},
+			"basebody":
+			{
+				"head":
+				{
+					"index": 0
+				},
+				"skin":
+				{
+					"material Index": 0,
+					"texture Sets": [],
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"eyes":
+				{
+					"material Index": 0,
+					"scalar Parameters":
+					{
+					},
+					"hDR Vector Parameters":
+					{
+					}
+				},
+				"morph Targets":
+				{
+				},
+				"morph Target Groups":
+				{
+				},
+				"anim Instance Alphas":
+				{
+				}
+			},
+			"hairstyle":
+			{
+				"data Assets": [
+					{
+						"data Asset": "/Game/CharacterEditor/Base/Blueprints/DataAssets/BP_CDA_Hairstyle_Head.BP_CDA_Hairstyle_Head_C'/Game/Mods/shortcurls/Assets/CDA_ShortCurls_Hair.CDA_ShortCurls_Hair'"
+					}
+				],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"groom":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"apparel":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"equipment":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"attachments":
+			{
+				"data Assets": [],
+				"global Scalar Parameters":
+				{
+				},
+				"global HDR Vector Parameters":
+				{
+				}
+			},
+			"avatar": "None",
+			"characterEquipmentIds":
+			{
+			}
+		}
+	}
+}

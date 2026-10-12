@@ -1,6 +1,6 @@
 {
 	"ModId": "BiggerLights",
-	"ModName": "Bigger light range",
+	"ModName": "Bigger Light Range",
 	"Version": "1.0.0",
 	"Author": "FishFishFish",
 	"Description": "2x light range for all lights.",
@@ -15,5 +15,6 @@
 	"Dependencies": [],
 	"DataTableConfigs": [],
 	"DataAssetConfigs": [],
-	"ModToolVersion": "1.0.0"
+	"ModToolVersion": "1.0.0",
+	"PublishedFileId": "3818320846"
 }
