@@ -13,8 +13,8 @@ Please don't use the green **Code → Download ZIP** button. It downloads everyt
 | Folder | What's in it |
 |---|---|
 | **Finished Mods** | Tested in game and working. Sorted by type: Characters, Quality of Life, Cheats, Items, Hairs, Profile Pictures Only. |
-| **Untested Mods** | Built, but not checked in game yet. **These are the ones I need testers for.** |
-| **Unfinished Mods** | Still being worked on. These may not do anything useful yet. |
+| **Untested Mods** | Built, but not checked mid-game yet. **These are the ones I need testers for.** |
+| **Unfinished Mods** | Still being worked on. These may not do anything useful yet. Most of them are just ideas.|
 
 Character mods come in two versions, **(EN)** English and **(ZH)** Chinese. Install only one of the two.
 
